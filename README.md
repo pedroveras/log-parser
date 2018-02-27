@@ -9,7 +9,9 @@ The log file was parsed using the Java 8 stream. During this stage the log data 
 
 # Instructions:
 
-- Place the file ``` connection.properties ``` on the same directory of the parser.jar. This file contains the properties for database connection configuration
+- The parser.jar is located under ``` resources\ ```
+
+- Place the file ``` connection.properties ``` on the same directory of the parser.jar. This file contains the properties for database connection configuration and should be filled before running the application
 
 - The command for running the application should include the path to the mysql driver. Example:
 
